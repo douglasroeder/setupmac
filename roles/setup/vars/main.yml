@@ -34,6 +34,9 @@ applications:
   - postgresql
   - qt@5.5
 
+  # debug
+  - pgbadger
+
 # homebrew cask applications
 cask_applications:
   - google-chrome
