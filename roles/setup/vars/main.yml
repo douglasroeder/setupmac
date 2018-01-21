@@ -50,6 +50,7 @@ cask_applications:
   - spotify
   - sublime-text
   - spectacle
+  - skype
 
 cask_fonts:
   - font-inconsolata
