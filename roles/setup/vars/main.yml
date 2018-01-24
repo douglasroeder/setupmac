@@ -33,6 +33,7 @@ applications:
   # dependencies
   - postgresql
   - qt@5.5
+  - imagemagick
   - phantomjs
 
   # debug
