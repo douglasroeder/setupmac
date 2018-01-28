@@ -16,7 +16,7 @@
 - name: dotfiles
   include_tasks: dotfiles.yml
   tags:
-    - env
+    - dotfiles
 
 - name: scm-breeze
   include_tasks: scm-breeze.yml
