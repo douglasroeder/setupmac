@@ -29,6 +29,7 @@ applications:
   - rbenv
   - pyenv
   - pyenv-virtualenv
+  - nvm
 
   # dependencies
   - postgresql
