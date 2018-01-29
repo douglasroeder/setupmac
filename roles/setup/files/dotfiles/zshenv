@@ -1,4 +1,4 @@
-PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/douglasroeder/.rbenv/bin:/usr/local/opt/fzf/bin:$PATH
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/douglasroeder/.rbenv/bin:/usr/local/opt/fzf/bin:
 export PATH
 
 # QT 5.5
