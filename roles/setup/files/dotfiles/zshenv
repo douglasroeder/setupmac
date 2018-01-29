@@ -1,4 +1,4 @@
-PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/douglasroeder/.rbenv/bin:/usr/local/opt/fzf/bin
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/douglasroeder/.rbenv/bin:/usr/local/opt/fzf/bin:$PATH
 export PATH
 
 # QT 5.5
@@ -9,7 +9,3 @@ eval "$(rbenv init -)"
 
 # PyEnv
 eval "$(pyenv init -)"
-
-# NVM
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
