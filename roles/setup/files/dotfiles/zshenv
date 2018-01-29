@@ -2,10 +2,15 @@ PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/douglasroeder/.rbenv/bi
 export PATH
 
 # QT 5.5
-export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
+#export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
+export PATH="/usr/local/opt/qt@5.5/bin:$PATH"
 
 # RBenv
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
+export RBENV_ROOT=$HOME/.rbenv
+export PATH="$RBENV_ROOT/shims:$PATH"
 
 # PyEnv
-eval "$(pyenv init -)"
+# eval "$(pyenv init -)"
+export PYENV_ROOT=$HOME/.pyenv
+export PATH="$PYENV_ROOT/shims:$PATH"
