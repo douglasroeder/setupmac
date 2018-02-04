@@ -19,6 +19,7 @@ applications:
   - git
   - git-lfs
   - tig
+  - watch
 
   # editor
   - vim
