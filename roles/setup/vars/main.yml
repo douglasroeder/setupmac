@@ -54,6 +54,7 @@ cask_applications:
   - sublime-text
   - spectacle
   - skype
+  - haskell-platform
 
 cask_fonts:
   - font-inconsolata
