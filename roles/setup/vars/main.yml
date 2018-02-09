@@ -55,6 +55,8 @@ cask_applications:
   - spectacle
   - skype
   - haskell-platform
+  - java
+  - telegram
 
 cask_fonts:
   - font-inconsolata
