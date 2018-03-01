@@ -3,6 +3,11 @@
   tags:
     - apps
 
+- name: install golang dependencies
+  include_tasks: golang.yml
+  tags:
+    - golang
+
 - name: font installs
   include_tasks: fonts.yml
   tags:

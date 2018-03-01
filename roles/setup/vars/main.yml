@@ -73,3 +73,10 @@ cask_fonts:
   - font-meslo-for-powerline
   - font-dejavusansmono-nerd-font
   - font-dejavu-sans-mono-for-powerline
+
+go_libs:
+  - github.com/nsf/gocode
+  - github.com/rogpeppe/godef
+  - golang.org/x/tools/cmd/guru
+  - golang.org/x/tools/cmd/gorename
+  - golang.org/x/tools/cmd/goimports

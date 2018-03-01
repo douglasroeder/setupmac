@@ -1,0 +1,6 @@
+---
+# install golang dependencies
+
+- name: install go libraries for spacemacs
+  shell: go get -u -v {{ item }}
+  with_items: "{{go_libs}}"
