@@ -27,6 +27,7 @@ applications:
 
   # lang
   - go
+  - dep
   - rbenv
   - pyenv
   - pyenv-virtualenv
