@@ -31,3 +31,7 @@
 - name: tap homebrew caskroom/fonts
   homebrew_tap:
     tap: "caskroom/fonts"
+
+- name: tap homebrew phrase app
+  homebrew_tap:
+    tap: "phrase/brewed"
