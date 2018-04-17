@@ -18,6 +18,7 @@ values."
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers
    '(
+     rust
      sql
      ansible
      (auto-completion :variables
@@ -47,7 +48,6 @@ values."
      ;; themes-megapack
      ruby-on-rails
      go
-     ;; (go :variables gofmt-command "goimports")
      ;; extra-langs
      editorconfig
      restclient
@@ -68,6 +68,7 @@ values."
      doom-themes
      solaire-mode
      gorepl-mode
+     ;; yasnippet-snippets
      ;; rjsx-mode
      ;; prettier-js
      ;; eslintd-fix
