@@ -39,15 +39,18 @@ values."
             shell-default-position 'bottom
             shell-default-shell 'multi-term)
      ;; spell-checking
-     ;; (syntax-checking :variables
-     ;;                  syntax-checking-enable-tooltips nil)
+     (syntax-checking :variables
+                      syntax-checking-enable-tooltips nil)
      version-control
      yaml
      csv
      colors
      ;; themes-megapack
      ruby-on-rails
-     go
+     (go :variables gofmt-command "goimports")
+     (elm :variables
+          elm-format-command "elm-format-0.18"
+          elm-format-on-save t)
      ;; extra-langs
      editorconfig
      restclient
@@ -178,6 +181,9 @@ values."
 (add-hook 'after-init-hook 'inf-ruby-switch-setup)
 
 (defun dotspacemacs/user-config ()
+  (with-eval-after-load 'company
+    (add-to-list 'company-backends 'company-elm))
+
   (setq multi-term-program "/bin/zsh")
 
   ;; Had to add this line to fix global search, apparently Developer branch is working fine
