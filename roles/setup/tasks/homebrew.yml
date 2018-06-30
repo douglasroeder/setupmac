@@ -11,13 +11,13 @@
     state: latest
     update_homebrew: yes
 
-- name: tap homebrew caskroom/cask
+- name: tap homebrew homebrew/cask
   homebrew_tap:
     tap: "homebrew/cask"
 
 - name: tap homebrew caskroom/versions
   homebrew_tap:
-    tap: "homebrew/versions"
+    tap: "caskroom/versions"
 
 - name: tap homebrew/services
   homebrew_tap:
