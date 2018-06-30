@@ -15,9 +15,9 @@
   homebrew_tap:
     tap: "homebrew/cask"
 
-- name: tap homebrew caskroom/versions
+- name: tap homebrew homebrew/cask-versions
   homebrew_tap:
-    tap: "caskroom/versions"
+    tap: "homebrew/cask-versions"
 
 - name: tap homebrew/services
   homebrew_tap:
@@ -28,9 +28,9 @@
     tap: "neovim/homebrew-neovim"
     state: present
 
-- name: tap homebrew caskroom/fonts
+- name: tap homebrew homebrew/cask-fonts
   homebrew_tap:
-    tap: "homebrew/fonts"
+    tap: "homebrew/cask-fonts"
 
 - name: tap homebrew phrase app
   homebrew_tap:
