@@ -28,9 +28,9 @@ echo "==========================================="
 echo "==========================================="
 echo "Installing homebrew and basic libraries"
 echo "==========================================="
-# /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-# brew install openssl
-# brew install libyaml
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install openssl
+brew install libyaml
 
 echo "==========================================="
 echo "Installing pip, ansible and dependencies"
