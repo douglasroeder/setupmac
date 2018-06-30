@@ -13,11 +13,11 @@
 
 - name: tap homebrew caskroom/cask
   homebrew_tap:
-    tap: "caskroom/cask"
+    tap: "homebrew/cask"
 
 - name: tap homebrew caskroom/versions
   homebrew_tap:
-    tap: "caskroom/versions"
+    tap: "homebrew/versions"
 
 - name: tap homebrew/services
   homebrew_tap:
@@ -30,7 +30,7 @@
 
 - name: tap homebrew caskroom/fonts
   homebrew_tap:
-    tap: "caskroom/fonts"
+    tap: "homebrew/fonts"
 
 - name: tap homebrew phrase app
   homebrew_tap:
