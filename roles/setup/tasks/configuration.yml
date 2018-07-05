@@ -23,6 +23,7 @@
 - name: setting up emacs with spacemacs
   git:
     repo: https://github.com/syl20bnr/spacemacs
+    version: develop
     dest: "{{local_home}}/.emacs.d"
 
 - name: create work directories
