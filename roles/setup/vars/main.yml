@@ -32,6 +32,8 @@ applications:
   - pyenv
   - pyenv-virtualenv
   - nvm
+
+  # elm stuff
   - elm
   - elm-format
 
