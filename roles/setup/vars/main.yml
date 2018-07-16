@@ -52,7 +52,6 @@ applications:
 # homebrew cask applications
 cask_applications:
   - google-chrome
-  - firefoxdeveloperedition
   - slack
   - iterm2
   - docker
@@ -62,9 +61,8 @@ cask_applications:
   - sublime-text
   - spectacle
   - skype
-  - haskell-platform
   - java
-  - telegram
+  - visual-studio-code
 
 cask_fonts:
   - font-inconsolata
