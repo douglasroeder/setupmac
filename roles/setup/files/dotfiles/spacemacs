@@ -17,8 +17,7 @@ values."
    ;; List of configuration layers to load. If it is the symbol `all' instead
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers
-   '(
-     rust
+   '(rust
      sql
      ansible
      (auto-completion :variables
@@ -32,6 +31,7 @@ values."
      html
      osx
      javascript
+     coffeescript
      react
      markdown
      (shell :variables
@@ -50,7 +50,8 @@ values."
      (go :variables gofmt-command "goimports")
      (elm :variables
           elm-format-command "elm-format-0.18"
-          elm-format-on-save t)
+          elm-format-on-save t
+          elm-sort-imports-on-save t)
      ;; extra-langs
      editorconfig
      restclient
@@ -59,6 +60,7 @@ values."
      (ruby :variables
            ruby-version-manager 'rbenv
            ruby-test-runner '"bundle exec rspec"
+           ruby-insert-encoding-magic-comment nil
            ruby-enable-ruby-on-rails-support t)
      )
    ;; List of additional packages that will be installed without being
