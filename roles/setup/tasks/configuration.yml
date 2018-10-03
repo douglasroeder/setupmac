@@ -3,35 +3,49 @@
 
 - name: set zsh as default shel
   command: "chsh -s /bin/zsh"
+  tags:
+    - env
 
 - name: setting up zsh with oh-my-zsh
   git:
     repo: https://github.com/robbyrussell/oh-my-zsh.git
     dest: "{{local_home}}/.oh-my-zsh"
+  tags:
+    - env
 
 - name: getting dracula theme for oh-my-zsh
   git:
     repo: https://github.com/dracula/zsh.git
     dest: "{{local_home}}/.oh-my-zsh_dracula_theme"
+  tags:
+    - env
 
 - name: sym linking oh-my-zsh theme
   file:
     src: "{{local_home}}/.oh-my-zsh_dracula_theme/dracula.zsh-theme"
     dest: "{{local_home}}/.oh-my-zsh/themes/dracula.zsh-theme"
     state: link
+  tags:
+    - env
 
 - name: setting up emacs with spacemacs
   git:
     repo: https://github.com/syl20bnr/spacemacs
     version: develop
     dest: "{{local_home}}/.emacs.d"
+  tags:
+    - env
 
 - name: create work directories
   file:
     path: "{{work_dir}}"
     state: directory
+  tags:
+    - env
 
 - name: create GOPATH directory
   file:
     path: "{{work_dir}}/go"
     state: directory
+  tags:
+    - env

@@ -5,18 +5,26 @@
   copy:
     src: dotfiles/spacemacs
     dest: "{{local_home}}/.spacemacs"
+  tags:
+    - dotfiles
 
 - name: tmux dot file
   copy:
     src: dotfiles/tmux.conf
     dest: "{{local_home}}/.tmux.conf"
+  tags:
+    - dotfiles
 
 - name: zshenv dot file
   copy:
     src: dotfiles/zshenv
     dest: "{{local_home}}/.zshenv"
+  tags:
+    - dotfiles
 
 - name: zshrc dot file
   copy:
     src: dotfiles/zshrc
     dest: "{{local_home}}/.zshrc"
+  tags:
+    - dotfiles

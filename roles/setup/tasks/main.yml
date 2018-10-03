@@ -1,29 +1,17 @@
 - name: application installs
   include_tasks: apps.yml
-  tags:
-    - apps
 
 - name: install golang dependencies
   include_tasks: golang.yml
-  tags:
-    - golang
 
 - name: font installs
   include_tasks: fonts.yml
-  tags:
-    - fonts
 
 - name: configuration
   include_tasks: configuration.yml
-  tags:
-    - env
 
 - name: dotfiles
   include_tasks: dotfiles.yml
-  tags:
-    - dotfiles
 
 - name: scm-breeze
   include_tasks: scm-breeze.yml
-  tags:
-    - env

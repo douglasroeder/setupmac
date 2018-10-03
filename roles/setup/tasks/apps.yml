@@ -9,9 +9,13 @@
     name: "{{item}}"
     state: latest
   with_items: "{{applications}}"
+  tags:
+    - apps
 
 - name: start installing homebrew cask applications
   homebrew_cask:
     name: "{{item}}"
     state: installed
   with_items: "{{cask_applications}}"
+  tags:
+    - apps

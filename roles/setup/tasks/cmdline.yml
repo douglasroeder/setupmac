@@ -1,8 +1,0 @@
----
-# install command line utilities
-
-- name: install {{item}} 
-  homebrew:
-    name: "{{item}}"
-    state: latest
-

@@ -43,11 +43,9 @@ applications:
   - imagemagick
   - phantomjs
 
-  # debug
-  - pgbadger
-
   # tools
   - phraseapp
+  - circleci
 
 # homebrew cask applications
 cask_applications:
@@ -63,6 +61,7 @@ cask_applications:
   - skype
   - java
   - visual-studio-code
+  - evernote
 
 cask_fonts:
   - font-inconsolata

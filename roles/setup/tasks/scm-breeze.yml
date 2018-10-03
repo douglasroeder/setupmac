@@ -5,6 +5,10 @@
   git:
     repo: https://github.com/scmbreeze/scm_breeze.git
     dest: "{{local_home}}/.scm_breeze"
+  tags:
+    - env
 
 - name: installing scm-breeze
   command: "{{local_home}}/.scm_breeze/install.sh"
+  tags:
+    - env
