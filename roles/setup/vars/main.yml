@@ -39,7 +39,7 @@ applications:
 
   # dependencies
   - postgresql
-  - qt@5.5
+  - qt5
   - imagemagick
   - phantomjs
 
