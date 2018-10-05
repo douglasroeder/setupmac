@@ -32,6 +32,12 @@
     tap: "homebrew/services"
   tags:
     - apps
+    
+- name: tap homebrew/core
+  homebrew_tap:
+    tap: "homebrew/core"
+  tags:
+    - apps
 
 - name: tap homebrew neovim/homebrew-neovim
   homebrew_tap:
