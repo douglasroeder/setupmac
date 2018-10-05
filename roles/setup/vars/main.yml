@@ -41,7 +41,6 @@ applications:
   - postgresql
   - qt5
   - imagemagick
-  - phantomjs
 
   # tools
   - phraseapp
@@ -49,6 +48,7 @@ applications:
 
 # homebrew cask applications
 cask_applications:
+  - phantomjs
   - google-chrome
   - slack
   - iterm2
