@@ -50,6 +50,7 @@ applications:
 cask_applications:
   - phantomjs
   - google-chrome
+  - firefox-developer-edition
   - slack
   - iterm2
   - docker
