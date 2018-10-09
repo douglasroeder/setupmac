@@ -103,7 +103,6 @@ alias ggpush='git push origin $(git_current_branch)'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-source $HOME/.aws/jora.sh
 source $HOME/.zshenv
 
 # NVM

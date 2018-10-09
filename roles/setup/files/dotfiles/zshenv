@@ -18,3 +18,7 @@ export PATH="$PYENV_ROOT/shims:$PATH"
 # Golang
 export GOPATH=$HOME/Work/go
 export PATH="$GOPATH/bin:$PATH"
+
+# Rust
+export RUSTPATH="$HOME/.cargo/bin:$PATH"
+export PATH="$RUSTPATH/bin:$PATH"
