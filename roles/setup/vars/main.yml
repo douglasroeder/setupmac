@@ -38,20 +38,20 @@ applications:
   - elm-format
 
   # dependencies
-  - postgresql
-  - qt5
-  - imagemagick
+  #- postgresql
+  #- qt5
+  #- imagemagick
 
   # tools
-  - phraseapp
-  - circleci
+  #- phraseapp
+  #- circleci
 
 # homebrew cask applications
 cask_applications:
-  - phantomjs
+  #- phantomjs
   - google-chrome
   - firefox-developer-edition
-  - slack
+  #- slack
   - iterm2
   - docker
   - emacs
@@ -59,8 +59,8 @@ cask_applications:
   - spotify
   - sublime-text
   - spectacle
-  - skype
-  - java
+  #- skype
+  #- java
   - visual-studio-code
   - evernote
 
